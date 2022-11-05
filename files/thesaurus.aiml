@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>HELLO ^</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+    <category>
+        <pattern>HOWDY ^</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+    <category>
+        <pattern>HOLA ^</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+    <category>
+        <pattern>BONJOUR ^</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+    
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template><sr /></template>
+    </category>
+    <category>
+        <pattern>* IS MY NAME</pattern>
+        <template><sr /></template>
+    </category>
+    
+	<category>
+        <pattern>Y ^</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+    <category>
+        <pattern>YEAH ^</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+    <category>
+        <pattern>AFFIRMATIVE ^</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+    <category>
+        <pattern>YEA ^</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+    <category>
+        <pattern> _ CORRECT *</pattern>
+        <template><srai>YES</srai></template>
+    </category>
+    
+    <category>
+        <pattern>N ^</pattern>
+        <template><srai>NO</srai></template>
+    </category>
+    <category>
+        <pattern>NAH ^</pattern>
+        <template><srai>NO</srai></template>
+    </category>
+    <category>
+        <pattern>NEGATIVE ^</pattern>
+        <template><srai>NO</srai></template>
+    </category>
+</aiml>

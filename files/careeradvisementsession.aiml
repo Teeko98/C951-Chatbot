@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>EXITSESSION</pattern>
+	    <template>Aww :( Well I'll be here if you change your mind! Just say hello and we can begin a new session.</template>
+    </category>
+    
+    <category>
+	    <pattern>STARTSESSION</pattern>
+	    <template><delay>1</delay>Great! Lets get started with a few basic questions...<delay>2</delay>
+	        <image>https://images.pexels.com/photos/933255/pexels-photo-933255.jpeg</image>
+	            Would you consider yourself a creative person?
+	        <button>
+	            <text>Yes</text>
+	            <postback>CREATIVE</postback>
+	        </button>
+	        <button>
+	             <text>Not really</text>
+	             <postback>NONCREATIVE</postback>
+	        </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>CREATIVE</pattern>
+        <template><delay>2</delay>
+            <image>https://images.pexels.com/photos/5698416/pexels-photo-5698416.jpeg</image>
+                Awesome! How do you feel about video games?
+            <button>
+                <text>Love them!</text>
+                <postback>VIDEOGAMES</postback>
+            </button>
+            <button>
+                <text>Meh, they're alright</text>
+                <postback>NONVIDEOGAMES</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NONVIDEOGAMES</pattern>
+        <template><delay>2</delay>
+            <image>https://images.pexels.com/photos/3045245/pexels-photo-3045245.jpeg</image>
+                It's okay they're not everyone's cup of tea. Would you rather create art or user experiences?
+            <button>
+                <text>Art!</text>
+                <postback>GRAPHICDESIGN</postback>
+            </button>
+            <button>
+                <text>User Experiences!</text>
+                <postback>UIUX</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>VIDEOGAMES</pattern>
+        <template><delay>2</delay>
+            <image>https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg</image>
+                Me too! What interests you more? How video games work or how they look?
+            <button>
+                <text>How they work!</text>
+                <postback>GAMEDEV</postback>
+            </button>
+            <button>
+                <text>How they look!</text>
+                <postback>GAMEARTIST</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NONCREATIVE</pattern>
+        <template><delay>2</delay>
+            <image>https://images.pexels.com/photos/19677/pexels-photo.jpg</image>
+                No problem! Do you enjoy problem solving?
+            <button>
+                <text>Yes!</text>
+                <postback>PROBLEMSOLVE</postback>
+            </button>
+            <button>
+                <text>No, not really</text>
+                <postback>NONPROBLEMSOLVE</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NONPROBLEMSOLVE</pattern>
+        <template><delay>2</delay>
+            <image>https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg</image>
+                All good! Do you like working with data?
+            <button>
+                <text>Yes!</text>
+                <postback>DATAANALYST</postback>
+            </button>
+            <button>
+                <text>It's not my favorite</text>
+                <postback>NONDATA</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NONDATA</pattern>
+        <template><delay>2</delay>
+            <image>https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg</image>
+                That's okay, it's definitely not for everyone. How about networks?
+            <button>
+                <text>Yes!</text>
+                <postback>NETWORKENGINEER</postback>
+            </button>
+            <button>
+                <text>Meh</text>
+                <postback>DIFFERENTFIELD</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PROBLEMSOLVE</pattern>
+        <template><delay>2</delay>
+            <image>https://images.pexels.com/photos/194094/pexels-photo-194094.jpeg</image>
+                Right on! Do you enjoy leadership roles?
+            <button>
+                <text>Yes!</text>
+                <postback>PROJECTMANAGER</postback>
+            </button>
+            <button>
+                <text>Not typically</text>
+                <postback>NONLEADER</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NONLEADER</pattern>
+        <template><delay>2</delay>
+            <image>https://images.pexels.com/photos/6804595/pexels-photo-6804595.jpeg</image>
+                No problem! Software development may be a good fit for you. Front-end or Back-end?
+            <button>
+                <text>Front-end!</text>
+                <postback>WEBDEV</postback>
+            </button>
+            <button>
+                <text>Back-end</text>
+                <postback>BACKENDDEV</postback>
+            </button>
+            <button>
+                <text>Both!</text>
+                <postback>FULLSTACKDEV</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>GRAPHICDESIGN</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/414974/pexels-photo-414974.jpeg</image>
+	        <delay>2</delay>You may be interested in Graphic Design!
+	            Graphic designers design or create graphics to meet specific commercial or promotional needs, such as packaging, displays, or logos. They typically use a variety of mediums to achieve artistic or decorative effects. 
+	            The mean salary in the US for a Graphic Designer is $59,970.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>UIUX</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg</image>
+	        <delay>2</delay>You may be interested in UI/UX Design!
+	            UI/UX Designers are responsible for the design and implementation of all the experiences a use has when interacting with a digital tool, such as a website.
+	            The mean salary in the US for a UI/UX designer is $75,047.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>GAMEDEV</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/340152/pexels-photo-340152.jpeg</image>
+	        <delay>2</delay>You may be interested in Video Game Development!
+	            Video game developers write code for games for a variety of formats, such as PCs, consoles, web browsers and mobile phones.
+	            The mean salary in the US for a Video Game Developer is $101,160.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>GAMEARTIST</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/4348405/pexels-photo-4348405.jpeg</image>
+	        <delay>2</delay>You may be interested in Video Game Art!
+	            Video game artists are responsible for creating 2D and 3D art for visual elements in video games.
+	            The mean salary in the US for a Video Game Artist is $65,547.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>DATAANALYST</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/3183131/pexels-photo-3183131.jpeg</image>
+	        <delay>2</delay>You may be interested in Data Analysis!
+	            Data analysts review data to identify key insights into a business's customers and ways the data can be used to solve problems.
+	            The mean salary in the US for a Data Analyst is $63,865.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>NETWORKENGINEER</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg</image>
+	        <delay>2</delay>You may be interested in Network Engineering!
+	            Network engineers design and implement network configurations, troubleshoot performance issues, carry out network monitoring, and configure security systems such as firewalls.
+	            The mean salary in the US for a Network Engineer is $93,845.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>PROJECTMANAGER</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/7376/startup-photos.jpg</image>
+	        <delay>2</delay>You may be interested in Project Management!
+	            Project managers are responsible for the planning, procurement, execution, and completion of a project.
+	            The mean salary in the US for a Project Manger is $84,500.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>WEBDEV</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg</image>
+	        <delay>2</delay>You may be interested in Web Development!
+	            Web developers create and maintain websites. They are responsible for the site's technical aspects and content creation for the site.
+	            The mean salary in the US for a Web Developer is $79,618.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>BACKENDDEV</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/7988116/pexels-photo-7988116.jpeg</image>
+	        <delay>2</delay>You may be interested in Back-End Development!
+	            Back-end developers build and maintain the mechanisms that process data and perform acions on a website.
+	            The mean salary in the US for a Back-End Developer is $115,370.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>FULLSTACKDEV</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg</image>
+	        <delay>2</delay>You may be interested in Full-Stack Development!
+	            Full-stack developers develop both client and server side software.
+	            The mean salary in the US for a Full-Stack Developer is $102,535.
+        </template>
+    </category>
+    
+    <category>
+	    <pattern>DIFFERENTFIELD</pattern>
+	    <template>
+	        <image>https://images.pexels.com/photos/6325938/pexels-photo-6325938.jpeg</image>
+	        <delay>2</delay>Perhaps information technology isn't for you?
+	            Based on your answers it seems that maybe IT might not be for you. That's okay! Everyone has the potentional to succeed, its just a matter of figuring out what you're good at!
+        </template>
+    </category>
+</aiml>

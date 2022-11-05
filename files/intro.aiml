@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>HI ^</pattern>
+        <template>
+            <random>
+                <li><delay>1</delay>Hello! My name is Career Advisor Bot or C.A.B. for short! What's your name?</li>
+                <li><delay>1</delay>Howdy! My name is C.A.B. the Career Advisor Bot! What's your name?</li>
+                <li><delay>1</delay>Hi there! I'm a Career Advisor Bot name C.A.B.! What's your name?</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS MY NAME</pattern>
+        <delay>1</delay>
+        <template>You told me your name is <formal><get name="name"/></formal>. Is that correct?</template>
+    </category>
+    <category>
+        <pattern>YES</pattern>
+        <that>IS THAT CORRECT</that>
+        <delay>1</delay>
+        <template>Awesome! <formal><get name="name"/></formal> is a cool name!</template>
+    </category>
+    <category>
+        <pattern>NO</pattern>
+        <that>IS THAT CORRECT</that>
+        <delay>1</delay>
+        <template>Woops! Well then, what is your name?</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <that>^ WHAT IS YOUR NAME</that>
+        <delay>1</delay>
+        <template><think><set name ="name"><star/></set></think>Nice to meet you <formal><get name="name" /></formal>! Would you like to get started with your career advisement session?
+            <button>
+                <text>Yes</text>
+                <postback>STARTSESSION</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>EXITSESSION</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
