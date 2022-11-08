@@ -43,7 +43,7 @@
         <template><srai>YES</srai></template>
     </category>
     <category>
-        <pattern> _ CORRECT *</pattern>
+        <pattern>CORRECT ^</pattern>
         <template><srai>YES</srai></template>
     </category>
     
